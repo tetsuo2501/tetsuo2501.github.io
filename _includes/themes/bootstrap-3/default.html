@@ -16,7 +16,7 @@
     <!-- Optional theme -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
     
-    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" type="text/css" media="all">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,7 +40,7 @@
   </head>
 
   <body data-spy="scroll" data-target=".bs-docs-sidebar" style="visibility: hidden">
-    
+    <div id="pagewrapper">
   <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner">
           <div class="container">
@@ -77,8 +77,8 @@
       </nav>
 
 
-
-      <div class="container-fluid">
+    
+      <div id="body" class="container-fluid">
         <div class="row-fluid">
 
           <div class="span8 offset2">
@@ -91,14 +91,14 @@
 
 
 
-    <div id="footer">
+    <footer>
       <div class="container-fluid">
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+        <p>{{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from  <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
       </div>
-    </div id="footer">
-
+    </footer>
+  </div>
     {% include JB/analytics %}
 
 
