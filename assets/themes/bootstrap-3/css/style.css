@@ -13,6 +13,9 @@ html,body{
     padding-bottom: 20px;    /* height of footer */
 }
 
+h1{
+    text-align: center;
+}
 
 footer{
     background-color: #000000;
@@ -21,4 +24,31 @@ footer{
     position: absolute;
     left: 0;
     bottom: 0; 
+}
+
+.modalImage{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-filter: contrast(100%);
+    -moz-filter: contrast(100%);
+    -ms-filter: contrast(100%);
+    -o-filter: contrast(100%);
+    filter: contrast(100%);
+}
+
+.btn2:before {
+  content: " ";
+}
+
+.btn2:after {
+  content: " ";
+}
+
+.normalContrast {
+    -webkit-filter: contrast(100%);
+    -moz-filter: contrast(100%);
+    -ms-filter: contrast(100%);
+    -o-filter: contrast(100%);
+    filter: contrast(100%);
 }

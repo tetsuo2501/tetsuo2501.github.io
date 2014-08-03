@@ -12,9 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap styles -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Optional theme -->
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap386.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive386.css" rel="stylesheet">
     
     <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" type="text/css" media="all">
 
@@ -36,14 +35,19 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-
+  <style>
+  .centerDiv{
+    float: none;
+    margin: 0 auto;
+  }
+  </style>
   </head>
 
-  <body data-spy="scroll" data-target=".bs-docs-sidebar" style="visibility: hidden">
+  <body style="visibility: hidden"> 
     <div id="pagewrapper">
   <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner">
-          <div class="container">
+          <div class="container-fluid">
               <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
               <a class="brand" href="./index.html">Leonardo Fontana</a>
               <div class="nav-collapse collapse">
@@ -78,12 +82,12 @@
 
 
     
-      <div id="body" class="container-fluid">
-        <div class="row-fluid">
+      <div id="body" class="container-fluid clearfix">
+        
 
-          <div class="span8 offset2">
+          <div class="span10 offset1">
             {{ content }}
-          </div>
+          
         </div>
       </div>
 
@@ -104,11 +108,12 @@
 
     <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <!---<script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>-->
-    <script src="{{ ASSET_PATH }}/bootstrap/js/386.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.js"></script>
+
     <script type="text/javascript">
-    _386 = { onePass: true}
+    _386 = { onePass: true};
     </script>
   </body>
 </html>

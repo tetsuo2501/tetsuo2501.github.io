@@ -10,17 +10,34 @@ group: navigation
 
 
 {% for post in site.posts  %}
-<div class="row-fluid">
+
+	<h2 text-align="center">{{ post.title }}</h2>
+	<hr>
+	<div class="row-fluid">
 	<div id="imagethumb" class="span4">
 		{% if post.image %}
-		<!--Inserire qui codice per thumb -->
-		<img src="{{ post.image }}.thumb" class="thumbImage">
+
+		<a href="#modal{{ post.image | remove: "." }}" role="button" class="thumbnail" data-toggle="modal">
+			<img src="/thumbs/{{ post.image }}" class="thumbImage">
+		</a>
+		
+		<div id="modal{{ post.image | remove: "." }}" class="modal hide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  
+  <div class="thumbnail ">
+    <img src="/images/{{ post.image }}" class="modalImage" >
+  </div>
+  <div class="nav list modal-footer">    <button class="btn" data-dismiss="modal" aria-hidden="true">Chiudi</button>
+
+  </div>
+</div>
+
+
 		{% else %}
 		<img src="/images/nothumbnail.jpg" class="thumbImage">
 		{% endif %}
 	</div>
 	<div id="portfolioText" class="span8">
-		<h2 text-align="center">{{ post.title }}</h2>
-		<p>{{ post.content }}</p>
+		{{ post.content }}
+	</div>
 	</div>
 {% endfor %}
