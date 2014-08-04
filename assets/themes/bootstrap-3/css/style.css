@@ -64,3 +64,6 @@ li.prev{
 ul.pagination{
     text-align: right;
 }
+hr.blog{
+    border-bottom-style: dotted;
+}
