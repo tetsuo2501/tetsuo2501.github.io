@@ -3,27 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
-
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Bootstrap styles -->
     <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap386.css" rel="stylesheet">
-    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive386.css" rel="stylesheet">
-    
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive386.css" rel="stylesheet">    
     <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" type="text/css" media="all">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-
     <!-- Fav and touch icons -->
     <!-- Update these with your own images
       <link rel="shortcut icon" href="images/favicon.ico">
@@ -31,7 +24,6 @@
       <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
       <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
     -->
-
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
@@ -42,14 +34,13 @@
   }
   </style>
   </head>
-
   <body style="visibility: hidden"> 
     <div id="pagewrapper">
   <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner">
           <div class="container-fluid">
               <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
-              <a class="brand" href="./index.html">Leonardo Fontana</a>
+              <a class="brand" href="/index.html">Leonardo Fontana</a>
               <div class="nav-collapse collapse">
                 <ul class="nav">
                   {% assign pages_list = site.pages %}
@@ -60,14 +51,6 @@
           </div>
         </div>
       </div>
-
-
-
-
-
-
-
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="jb-navbar-collapse">
           
@@ -79,21 +62,13 @@
           </form>
         </div><!-- /.navbar-collapse -->
       </nav>
-
-
     
       <div id="body" class="container-fluid clearfix">
-        
-
-          <div class="span10 offset1">
+<div class="span1 visible-desktop"></div><div class="span11">
             {{ content }}
           
         </div>
       </div>
-
-
-
-
 
     <footer>
       <div class="container-fluid">

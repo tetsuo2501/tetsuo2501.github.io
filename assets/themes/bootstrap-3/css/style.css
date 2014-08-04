@@ -52,3 +52,15 @@ footer{
     -o-filter: contrast(100%);
     filter: contrast(100%);
 }
+
+li.next{
+    display: inline;
+}
+
+li.prev{
+    display: inline;
+}
+
+ul.pagination{
+    text-align: right;
+}

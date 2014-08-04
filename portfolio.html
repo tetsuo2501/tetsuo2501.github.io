@@ -5,39 +5,17 @@ header : Lavori Svolti
 group: navigation
 ---
 {% include JB/setup %}
-
-
-
-
-{% for post in site.posts  %}
-
-	<h2 text-align="center">{{ post.title }}</h2>
-	<hr>
-	<div class="row-fluid">
-	<div id="imagethumb" class="span4">
-		{% if post.image %}
-
-		<a href="#modal{{ post.image | remove: "." }}" role="button" class="thumbnail" data-toggle="modal">
-			<img src="/thumbs/{{ post.image }}" class="thumbImage">
-		</a>
-		
+{% for post in site.categories.portfolio  %}
+<div class="row-fluid" style="margin-bottom: 50px">
+<h1 text-align="center">{{ post.title }}</h1>
+<hr><div  class="span12">
+{% if post.image %}
+<a href="#modal{{ post.image | remove: "." }}" role="button" class="thumbnail" data-toggle="modal" style="float:left; margin-right:20px"><img src="/thumbs/{{ post.image }}" class="thumbImage" ></a>
 		<div id="modal{{ post.image | remove: "." }}" class="modal hide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		  
-  <div class="thumbnail ">
-    <img src="/images/{{ post.image }}" class="modalImage" >
-  </div>
-  <div class="nav list modal-footer">    <button class="btn" data-dismiss="modal" aria-hidden="true">Chiudi</button>
-
-  </div>
-</div>
-
-
-		{% else %}
-		<img src="/images/nothumbnail.jpg" class="thumbImage">
-		{% endif %}
-	</div>
-	<div id="portfolioText" class="span8">
-		{{ post.content }}
-	</div>
-	</div>
-{% endfor %}
+	  		<div class="thumbnail ">
+    			<img src="/images/{{ post.image }}" class="modalImage" >
+  			</div>
+  			<div class="nav list modal-footer"><button class="btn" data-dismiss="modal" aria-hidden="true">Chiudi</button>
+			</div>
+		</div>
+{% else %}{% endif %}{{ post.content }}</div></div>{% endfor %}

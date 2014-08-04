@@ -1,6 +1,6 @@
 ---
 layout: post
-category : lessons
+category : portfolio
 tagline: "Supporting tagline"
 tags : [intro, beginner, jekyll, tutorial]
 image: download.jpg
