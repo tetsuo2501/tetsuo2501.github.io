@@ -53,11 +53,7 @@ footer{
     filter: contrast(100%);
 }
 
-li.next{
-    display: inline;
-}
-
-li.prev{
+ul.pagination li{
     display: inline;
 }
 
@@ -66,4 +62,34 @@ ul.pagination{
 }
 hr.blog{
     border-bottom-style: dotted;
+}
+
+.twitter-share-button a {
+    display: block;
+    padding: 2px 5px 2px 20px;
+    background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
+    border: 1px solid #ccc;
+}
+
+ul.share-buttons{
+    display:block;
+    list-style-type: none;
+    text-align: left;
+}
+
+ul.share-buttons li{
+    display:inline;
+    margin-right: 20px;
+}
+.post-sharing{
+    float:left;
+}
+div#navigazione{
+    float:right;
+}
+div#navigazione ul li{
+    margin-left: 20px;
+}
+div#navigazione ul{
+    margin-right: 20px;
 }

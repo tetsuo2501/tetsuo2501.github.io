@@ -1,8 +1,15 @@
-{% if site.safe and site.JB.sharing.provider and page.JB.sharing != false %}
+{% if site.JB.sharing.provider != false %}
 
-{% case site.JB.sharing.provider %}
-{% when "custom" %}
-  {% include custom/sharing %}
-{% endcase %}
-
+<ul class="pagination share-buttons">
+  {% case site.JB.sharing.provider %}
+	{% when 'facebook' %}
+  		<li>{% include JB/sharing-providers/facebook %}</li>
+	{% when 'twitter' %}
+  		<li>{% include JB/sharing-providers/twitter %}</li>
+	{% when 'googleplus' %}
+  		<li>{% include JB/sharing-providers/googleplus %}</li>
+	{% when 'all' %}
+  		<li>{% include JB/sharing-providers/facebook %}</li><li>{% include JB/sharing-providers/twitter %}</li><li>{% include JB/sharing-providers/googleplus %}</li>
+  {% endcase %}
+</ul>
 {% endif %}
