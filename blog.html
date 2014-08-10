@@ -18,7 +18,7 @@ group: navigation
 		</a>
 	</div>
 	<div style="float:right">
-		<i>{{ post.date }}</i>
+		<i>{{ post.date | date_to_string }}</i>
 	</div>
 </div>
 <hr class="blog">{{ post.excerpt }}
