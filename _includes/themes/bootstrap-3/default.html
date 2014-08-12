@@ -27,19 +27,16 @@
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-  <style>
-  .centerDiv{
-    float: none;
-    margin: 0 auto;
-  }
-  </style>
+
   </head>
-  <body style="visibility: hidden"> 
+  <body style="margin-left:auto; margin-right:auto;"> <!-- visibility: hidden;-->
     <div id="pagewrapper">
-  <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner">
           <div class="container-fluid">
-              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                
+              </button>
               <a class="brand" href="/index.html">Leonardo Fontana</a>
               <div class="nav-collapse collapse">
                 <ul class="nav">
@@ -61,15 +58,19 @@
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
         </div><!-- /.navbar-collapse -->
-      </nav>
+      
     
-      <div id="body" class="container-fluid clearfix">
-<div class="span1 visible-desktop"></div><div class="span11">
-            {{ content }}
-          
+      <div id="body" class="container-fluid">
+        <div class="row-fluid">
+          <div class="span1 visible-desktop">  
+          </div>
+          <div class="span10">
+            {{ content }}          
+          </div>
+          <div class="span1 visible-desktop"></div>
         </div>
-      </div>
 
+    </div>
     <footer>
       <div class="container-fluid">
         <p>{{ site.time | date: '%Y' }} {{ site.author.name }}

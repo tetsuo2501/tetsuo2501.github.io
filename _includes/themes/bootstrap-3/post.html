@@ -1,9 +1,10 @@
+{% include JB/setup %}
 <div class="page-header">
   <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 </div>
 
-<div class="row-fluid post-full">
-  <div class="span12">
+<div class="row-fluid ">
+  <div class="span12 post-full">
     <div class="date">
       <span><i>{{ page.date | date_to_long_string }}</i></span>
     </div>
@@ -11,7 +12,7 @@
       {{ content }}
       <hr>
     </div>
- 
+  </div>
 
   {% unless page.tags == empty %}
     <ul class="tag_box inline">
@@ -20,28 +21,26 @@
       {% include JB/tags_list %}
     </ul>
   {% endunless %}  
-  
-    
-    <div class="post-sharing">
-   {% include JB/sharing %}
+
+  <div class="post-sharing">
+    {% include JB/sharing %}
   </div>
   <div id="navigazione">
     <ul class="pagination">
     {% if page.previous %}
-      <li><a class="btn" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
+      <li><a class="btn" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&#x2190; Previous</a></li>
     {% else %}
-      <li class="prev disabled"><a>&larr; Previous</a></li>
+      <li class="prev disabled"><a>&#x2190; Previous</a></li>
     {% endif %}
       
     {% if page.next %}
-      <li><a class="btn" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a></li>
+      <li><a class="btn" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &#x2192;</a></li>
     {% else %}
-      <li class="next disabled"><a>Next &rarr;</a></li>
+      <li class="next disabled"><a>Next &#x2192;</a></li>
     {% endif %}
     </ul>
-    </div>
-
   </div>
-      <hr>
-    {% include JB/comments %}
 </div>
+
+    {% include JB/comments %}
+
