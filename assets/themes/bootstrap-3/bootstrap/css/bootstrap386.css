@@ -225,8 +225,8 @@ textarea {
   font-family: 'DOS';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/PerfectDOS.eot');
-  src: local('☺'), url('../fonts/PerfectDOS.woff') format('woff'), url('../fonts/PerfectDOS.ttf') format('truetype'), url('../fonts/PerfectDOS.svg') format('svg');
+  src: url('../fonts/FSEX300.eot');
+  src: local('☺'), url('../fonts/FSEX300.woff') format('woff'), url('../fonts/FSEX300.ttf') format('truetype'), url('../fonts/FSEX300.svg') format('svg');
 }
 
 body {

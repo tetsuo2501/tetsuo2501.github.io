@@ -28,7 +28,7 @@ production_url : http://tetsuo2501.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
-
+encoding: utf-8
 
 JB :
   version : 0.3.0
