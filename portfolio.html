@@ -8,7 +8,7 @@ group: navigation
 {% for post in site.categories.portfolio  %}
 <div class="row-fluid" style="margin-bottom: 50px">
 <h1 style="text-align:left">{{ post.title }}</h1>
-<hr><div  class="span11">
+<hr>
 {% if post.image %}
 <a href="#modal{{ post.image | remove: "." }}" role="button" class="thumbnail" data-toggle="modal" style="float:left; margin-right:20px"><img src="/thumbs/{{ post.image }}" class="thumbImage" ></a>
 		<div id="modal{{ post.image | remove: "." }}" class="modal hide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -18,4 +18,4 @@ group: navigation
   			<div class="nav list modal-footer"><button class="btn" data-dismiss="modal" aria-hidden="true">Chiudi</button>
 			</div>
 		</div>
-{% else %}{% endif %}{{ post.content }}</div></div>{% endfor %}
+{% else %}{% endif %}{{ post.content }}</div>{% endfor %}

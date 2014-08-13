@@ -71,6 +71,7 @@ hr.blog{
     border: 1px solid #ccc;
 }
 
+
 ul.share-buttons{
     display:block;
     list-style-type: none;
@@ -92,4 +93,12 @@ div#navigazione ul li{
 }
 div#navigazione ul{
     margin-right: 20px;
+}
+
+ul li{
+    list-style: inherit;
+}
+
+ol li{
+    list-style: inherit;
 }
