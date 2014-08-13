@@ -92,38 +92,6 @@
 	"buffers":
 	[
 		{
-			"file": "index.md",
-			"settings":
-			{
-				"buffer_size": 1459,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_posts/2013-04-12-coolbine.md",
-			"settings":
-			{
-				"buffer_size": 417,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/themes/bootstrap-3/default.html",
-			"settings":
-			{
-				"buffer_size": 3943,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 4638,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "portfolio.html",
 			"settings":
 			{
@@ -135,9 +103,17 @@
 	"build_system": "Packages/User/grunt-build.sublime-build",
 	"command_palette":
 	{
-		"height": 54.0,
+		"height": 201.0,
 		"selected_items":
 		[
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
 			[
 				"Package Control: INSTA",
 				"Package Control: Install Package"
@@ -163,7 +139,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 575.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -183,6 +159,17 @@
 	},
 	"file_history":
 	[
+		"/home/leonardo/tetsuo2501.github.io/Gemfile",
+		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3/default.html",
+		"/home/leonardo/tetsuo2501.github.io/_config.yml",
+		"/home/leonardo/tetsuo2501.github.io/404.html",
+		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3/post.html",
+		"/home/leonardo/tetsuo2501.github.io/Rakefile",
+		"/home/leonardo/tetsuo2501.github.io/index.md",
+		"/home/leonardo/tetsuo2501.github.io/_plugins/sitemap_generator.rb",
+		"/home/leonardo/tetsuo2501.github.io/_drafts/2014-08-13-qua-siamo.md",
+		"/home/leonardo/tetsuo2501.github.io/_posts/2013-04-12-coolbine.md",
+		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/stylesheet.css",
 		"/home/leonardo/tetsuo2501.github.io/_drafts/prova.md",
 		"/home/leonardo/tetsuo2501.github.io/contattami.html",
 		"/home/leonardo/tetsuo2501.github.io/_posts/2013-06-01-ecogreenshop.md",
@@ -190,27 +177,20 @@
 		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/bootstrap386.css",
 		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/css/style.css",
 		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/386.min.css",
-		"/home/leonardo/tetsuo2501.github.io/_posts/2013-04-12-coolbine.md",
 		"/home/leonardo/tetsuo2501.github.io/imagescript.sh",
 		"/home/leonardo/tetsuo2501.github.io/blog.html",
-		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3/post.html",
 		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3/page.html",
-		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3/default.html",
 		"/home/leonardo/tetsuo2501.github.io/_layouts/default.html",
-		"/home/leonardo/tetsuo2501.github.io/404.html",
 		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/js/386.js",
 		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/bootstrap.css",
 		"/home/leonardo/tetsuo2501.github.io/_includes/JB/comments",
-		"/home/leonardo/tetsuo2501.github.io/_config.yml",
 		"/home/leonardo/t/bower.json",
-		"/home/leonardo/tetsuo2501.github.io/index.md",
 		"/home/leonardo/tetsuo2501.github.io/_includes/JB/sharing-providers/googleplus",
 		"/home/leonardo/tetsuo2501.github.io/_layouts/post.html",
 		"/home/leonardo/tetsuo2501.github.io/_plugins/debug.rb",
 		"/home/leonardo/tetsuo2501.github.io/_includes/JB/sharing-providers/twitter",
 		"/home/leonardo/t/bower",
 		"/home/leonardo/tetsuo2501.github.io/_drafts/2014-08-06-hello-world.md",
-		"/home/leonardo/tetsuo2501.github.io/Rakefile",
 		"/home/leonardo/tetsuo2501.github.io/_includes/JB/sharing",
 		"/home/leonardo/tetsuo2501.github.io/_includes/JB/sharing-providers/facebook",
 		"/home/leonardo/tetsuo2501.github.io/tags.html",
@@ -306,11 +286,7 @@
 		"/home/leonardo/dart/cam4Notifier/app/cam4notifier.dart",
 		"/home/leonardo/cam4Notifier/app/scripts/background.js",
 		"/home/leonardo/cam4Notifier/app/scripts/hello.coffee",
-		"/home/leonardo/dart/cam4Notifier/app/cam4notifier.html",
-		"/home/leonardo/dart/cam4Notifier/app/bootstrap.js",
-		"/home/leonardo/cam4Notifier/bower.json",
-		"/home/leonardo/dart/cam4Notifier/app/theme.js",
-		"/home/leonardo/dart/cam4Notifier/app/manifest.json"
+		"/home/leonardo/dart/cam4Notifier/app/cam4notifier.html"
 	],
 	"find":
 	{
@@ -328,6 +304,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"url",
 			"post",
 			"thumbnail",
 			"DOS-System-Font.",
@@ -493,124 +470,6 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1459,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1015,
-								1015
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 204.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_posts/2013-04-12-coolbine.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 417,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								417,
-								417
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_includes/themes/bootstrap-3/default.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3943,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1686,
-								1686
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 255.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_config.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4638,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1087,
-								1087
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 357.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "portfolio.html",
 					"semi_transient": false,
 					"settings":
@@ -634,7 +493,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
