@@ -98,6 +98,22 @@
 				"buffer_size": 917,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "CNAME",
+			"settings":
+			{
+				"buffer_size": 24,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 4682,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "Packages/User/grunt-build.sublime-build",
@@ -304,6 +320,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"http://tetsuo2501.github.io",
 			"url",
 			"post",
 			"thumbnail",
@@ -427,6 +444,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"http://leonardofontana.info",
 			"FSEX300.",
 			"DOS-System-Font.",
 			"span6",
@@ -465,7 +483,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -491,6 +509,64 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "CNAME",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4,
+								4
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4682,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3493,
+								3493
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1645.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

@@ -67,6 +67,8 @@ task :post do
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts "category: blog"
+    post.puts 'description: ""'
+    post.puts 'keywords: ""'
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
@@ -97,6 +99,8 @@ task :draft do
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts "category: blog"
     post.puts "tags: #{tags}"
+    post.puts 'description: ""'
+    post.puts 'keywords: ""'
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
@@ -128,7 +132,9 @@ task :portfolio do
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/-/,' ')}\""
     post.puts "category: portfolio"
-    post.puts "image: "
+    post.puts 'description: ""'
+    post.puts 'keywords: ""'
+    post.puts 'image: ' 
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
@@ -156,6 +162,7 @@ task :page do
     post.puts "layout: page"
     post.puts "title: \"#{title}\""
     post.puts 'description: ""'
+    post.puts "keywords: "
     post.puts "---"
     post.puts "{% include JB/setup %}"
   end
