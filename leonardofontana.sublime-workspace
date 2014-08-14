@@ -92,26 +92,18 @@
 	"buffers":
 	[
 		{
-			"file": "portfolio.html",
+			"file": "_includes/themes/bootstrap-3/default.html",
 			"settings":
 			{
-				"buffer_size": 917,
+				"buffer_size": 3993,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "CNAME",
+			"file": "_posts/2014-08-13-qua-siamo.md",
 			"settings":
 			{
-				"buffer_size": 24,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_config.yml",
-			"settings":
-			{
-				"buffer_size": 4682,
+				"buffer_size": 1124,
 				"line_ending": "Unix"
 			}
 		}
@@ -175,20 +167,22 @@
 	},
 	"file_history":
 	[
+		"/home/leonardo/tetsuo2501.github.io/portfolio.html",
+		"/home/leonardo/tetsuo2501.github.io/_posts/2013-04-12-coolbine.md",
+		"/home/leonardo/tetsuo2501.github.io/_posts/2013-06-01-ecogreenshop.md",
+		"/home/leonardo/tetsuo2501.github.io/index.md",
+		"/home/leonardo/tetsuo2501.github.io/Rakefile",
+		"/home/leonardo/tetsuo2501.github.io/_config.yml",
+		"/home/leonardo/tetsuo2501.github.io/CNAME",
 		"/home/leonardo/tetsuo2501.github.io/Gemfile",
 		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3/default.html",
-		"/home/leonardo/tetsuo2501.github.io/_config.yml",
 		"/home/leonardo/tetsuo2501.github.io/404.html",
 		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3/post.html",
-		"/home/leonardo/tetsuo2501.github.io/Rakefile",
-		"/home/leonardo/tetsuo2501.github.io/index.md",
 		"/home/leonardo/tetsuo2501.github.io/_plugins/sitemap_generator.rb",
 		"/home/leonardo/tetsuo2501.github.io/_drafts/2014-08-13-qua-siamo.md",
-		"/home/leonardo/tetsuo2501.github.io/_posts/2013-04-12-coolbine.md",
 		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/stylesheet.css",
 		"/home/leonardo/tetsuo2501.github.io/_drafts/prova.md",
 		"/home/leonardo/tetsuo2501.github.io/contattami.html",
-		"/home/leonardo/tetsuo2501.github.io/_posts/2013-06-01-ecogreenshop.md",
 		"/home/leonardo/tetsuo2501.github.io/_posts/2014-08-12-abitiperlavoro.md",
 		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/bootstrap386.css",
 		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/css/style.css",
@@ -211,7 +205,6 @@
 		"/home/leonardo/tetsuo2501.github.io/_includes/JB/sharing-providers/facebook",
 		"/home/leonardo/tetsuo2501.github.io/tags.html",
 		"/home/leonardo/tetsuo2501.github.io/_includes/JB/comments-providers/disqus",
-		"/home/leonardo/tetsuo2501.github.io/portfolio.html",
 		"/home/leonardo/npm-debug.log",
 		"/home/leonardo/tetsuo2501.github.io/atom.xml",
 		"/home/leonardo/tetsuo2501.github.io/rss.xml",
@@ -301,8 +294,7 @@
 		"/home/leonardo/cam4Notifier/app/manifest.json",
 		"/home/leonardo/dart/cam4Notifier/app/cam4notifier.dart",
 		"/home/leonardo/cam4Notifier/app/scripts/background.js",
-		"/home/leonardo/cam4Notifier/app/scripts/hello.coffee",
-		"/home/leonardo/dart/cam4Notifier/app/cam4notifier.html"
+		"/home/leonardo/cam4Notifier/app/scripts/hello.coffee"
 	],
 	"find":
 	{
@@ -483,90 +475,62 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "portfolio.html",
+					"file": "_includes/themes/bootstrap-3/default.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 917,
+						"buffer_size": 3993,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								899,
-								899
+								2243,
+								2243
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "CNAME",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 24,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4,
-								4
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 204.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "_config.yml",
+					"buffer": 1,
+					"file": "_posts/2014-08-13-qua-siamo.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4682,
+						"buffer_size": 1124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3493,
-								3493
+								155,
+								155
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1645.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

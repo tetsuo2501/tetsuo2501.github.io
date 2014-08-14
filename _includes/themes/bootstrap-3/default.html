@@ -69,18 +69,18 @@
           <div class="span10">
             {{ content }}          
           </div>
-          <div class="span1 visible-desktop"></div>
+          <div class="span1 visible-desktop">            
+          </div>
         </div>
-
-    </div>
-    <footer>
-      <div class="container-fluid">
-        <p>{{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from  <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
-        </p>
       </div>
-    </footer>
-  </div>
+      <footer>
+        <div class="container-fluid">
+          <p>{{ site.time | date: '%Y' }} {{ site.author.name }}
+          with help from  <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+          </p>
+        </div>
+      </footer>
+    </div>
     {% include JB/analytics %}
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
