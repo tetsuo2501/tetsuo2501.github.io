@@ -20,7 +20,7 @@ Le mie esperienze lavorative, come si evince dal portfolio, sono tutte orientate
 Potete trovarmi anche su [Twitter](https://twitter.com/tetsuo2501){:target="_blank"}, [Instagram](http://instagram.com/leonardofontana){:target="_blank"} e [Google Plus](https://plus.google.com/+LeonardoFontana/?rel=author"){:target="_blank"}
 
 Per domande e chiarimenti potete usare il form nella pagina [contattami](\contattami.html).
-<meta itemprop="birthday" datetime="1979-08-10">
+<meta itemprop="birthDate" datetime="1979-08-10">
 </div>
 
 Attraverso i miei studi e le mie esperienze ho acquisito conoscenze di:
