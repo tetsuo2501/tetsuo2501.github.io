@@ -17,7 +17,7 @@ Mi chiamo <span itemprop="name">Leonardo Fontana</span>, sono un laureando in <s
 Da sempre appassionato di IT ho avuto le prime esperienze all'età di 10 anni con un Commodore 64. Da allora non ho più smesso di amare questo mondo, in continua evoluzione come me. In particolare da quando ho cominciato ad usare Linux ho iniziato ad approfondire le tematiche su internet ed il web in particolare nell'ambito sever e website.
 
 Le mie esperienze lavorative, come si evince dal portfolio, sono tutte orientate alla realizzazione di siti internet di varia natura. Attraverso di esse ho imparato ad utilizzare le piattaforme Wordpress e Joomla, anche se il mio sogno nel cassetto rimane sempre la gestione dei sistemi informativi.
-Potete trovarmi anche su [Twitter](https://twitter.com/tetsuo2501){:target="_blank"}, [Instagram](http://instagram.com/leonardofontana){:target="_blank"} e [Google Plus](https://plus.google.com/+LeonardoFontana/){:target="_blank"}
+Potete trovarmi anche su [Twitter](https://twitter.com/tetsuo2501){:target="_blank"}, [Instagram](http://instagram.com/leonardofontana){:target="_blank"} e [Google Plus](https://plus.google.com/+LeonardoFontana/?rel=author"){:target="_blank"}
 
 Per domande e chiarimenti potete usare il form nella pagina [contattami](\contattami.html).
 <meta itemprop="birthday" datetime="1979-08-10">
