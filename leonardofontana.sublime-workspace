@@ -92,19 +92,28 @@
 	"buffers":
 	[
 		{
-			"file": "_includes/themes/bootstrap-3/default.html",
-			"settings":
-			{
-				"buffer_size": 3993,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "_posts/2014-08-13-qua-siamo.md",
 			"settings":
 			{
 				"buffer_size": 1124,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "CNAME",
+			"settings":
+			{
+				"buffer_size": 24,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "package:/system/app/Apollo.apk=com.andrew.apollo\npackage:/data/app/com.google.android.ears-1.apk=com.google.android.ears\npackage:/system/priv-app/VoiceDialer.apk=com.android.voicedialer\npackage:/system/priv-app/DefaultContainerService.apk=com.android.defcontainer\npackage:/system/priv-app/Contacts.apk=com.android.contacts\npackage:/system/priv-app/TeleService.apk=com.android.phone\npackage:/data/app/com.spotify.music-2.apk=com.spotify.music\npackage:/system/app/Calculator.apk=com.android.calculator2\npackage:/system/app/Torch.apk=net.cactii.flash2\npackage:/system/app/HTMLViewer.apk=com.android.htmlviewer\npackage:/system/app/SamsungServiceMode.apk=com.cyanogenmod.samsungservicemode\npackage:/system/priv-app/GoogleLoginService.apk=com.google.android.gsf.login\npackage:/system/app/CellBroadcastReceiver.apk=com.android.cellbroadcastreceiver\npackage:/system/app/Bluetooth.apk=com.android.bluetooth\npackage:/system/priv-app/CalendarProvider.apk=com.android.providers.calendar\npackage:/system/app/DSPManager.apk=com.bel.android.dspmanager\npackage:/system/app/Browser.apk=com.android.browser\npackage:/system/app/NovaThorSettings.apk=com.teamcanjica.settings.device\npackage:/system/app/DownloadProviderUi.apk=com.android.providers.downloads.ui\npackage:/system/app/LockClock.apk=com.cyanogenmod.lockclock\npackage:/data/app/com.neogb.rtac-1.apk=com.neogb.rtac\npackage:/system/app/DocumentsUI.apk=com.android.documentsui\npackage:/system/priv-app/SharedStorageBackup.apk=com.android.sharedstoragebackup\npackage:/data/app/com.instagram.android-1.apk=com.instagram.android\npackage:/system/app/Camera2.apk=com.android.camera2\npackage:/system/priv-app/VpnDialogs.apk=com.android.vpndialogs\npackage:/system/priv-app/Mms.apk=com.android.mms\npackage:/system/app/Provision.apk=com.android.provision\npackage:/system/priv-app/MediaProvider.apk=com.android.providers.media\npackage:/system/app/CertInstaller.apk=com.android.certinstaller\npackage:/data/app/com.google.android.apps.m4b-1.apk=com.google.android.apps.m4b\npackage:/data/app/com.google.android.gms-2.apk=com.google.android.gms\npackage:/system/app/PhotoTable.apk=com.android.dreams.phototable\npackage:/system/priv-app/SetupWizard.apk=com.google.android.setupwizard\npackage:/system/app/VideoEditor.apk=com.android.videoeditor\npackage:/system/priv-app/Settings.apk=com.android.settings\npackage:/system/app/Term.apk=jackpal.androidterm\npackage:/system/app/Street.apk=com.google.android.street\npackage:/system/app/GenieWidget.apk=com.google.android.apps.genie.geniewidget\npackage:/data/app/com.lynxspa.prontotreno-1.apk=com.lynxspa.prontotreno\npackage:/data/app/com.google.android.googlequicksearchbox-2.apk=com.google.android.googlequicksearchbox\npackage:/system/app/Gallery2.apk=com.android.gallery3d\npackage:/system/app/Exchange2.apk=com.android.exchange\npackage:/system/app/VisualizationWallpapers.apk=com.android.musicvis\npackage:/data/app/com.google.android.apps.unveil-2.apk=com.google.android.apps.unveil\npackage:/system/app/LiveWallpapersPicker.apk=com.android.wallpaper.livepicker\npackage:/system/app/WhisperPush.apk=org.whispersystems.whisperpush\npackage:/system/app/CMHome.apk=org.cyanogenmod.launcher.home\npackage:/system/app/Development.apk=com.android.development\npackage:/system/priv-app/GoogleBackupTransport.apk=com.google.android.backuptransport\npackage:/system/app/PackageInstaller.apk=com.android.packageinstaller\npackage:/system/app/TelephonyProvider.apk=com.android.providers.telephony\npackage:/data/app/com.google.android.tts-1.apk=com.google.android.tts\npackage:/system/priv-app/PicoTts.apk=com.svox.pico\npackage:/system/app/NoiseField.apk=com.android.noisefield\npackage:/system/app/Email.apk=com.android.email\npackage:/system/priv-app/Dialer.apk=com.android.dialer\npackage:/data/app/com.google.android.apps.maps-2.apk=com.google.android.apps.maps\npackage:/system/priv-app/FusedLocation.apk=com.android.location.fused\npackage:/system/priv-app/WallpaperCropper.apk=com.android.wallpapercropper\npackage:/system/priv-app/BackupRestoreConfirmation.apk=com.android.backupconfirm\npackage:/system/app/MagicSmokeWallpapers.apk=com.android.magicsmoke\npackage:/system/priv-app/SettingsProvider.apk=com.android.providers.settings\npackage:/data/app/com.google.android.apps.authenticator2-1.apk=com.google.android.apps.authenticator2\npackage:/data/app/com.google.android.launcher-2.apk=com.google.android.launcher\npackage:/data/app/com.nullsoft.winamp-1.apk=com.nullsoft.winamp\npackage:/data/app/com.google.android.apps.docs-2.apk=com.google.android.apps.docs\npackage:/system/priv-app/DownloadProvider.apk=com.android.providers.downloads\npackage:/data/app/com.nullsoft.prostub-1.apk=com.nullsoft.prostub\npackage:/system/app/PhaseBeam.apk=com.android.phasebeam\npackage:/data/app/net.micene.minigroup.palimpsests.lite-1.apk=net.micene.minigroup.palimpsests.lite\npackage:/system/app/SoundRecorder.apk=com.android.soundrecorder\npackage:/system/priv-app/CMAccount.apk=com.cyanogenmod.account\npackage:/system/app/LatinIME.apk=com.android.inputmethod.latin\npackage:/system/priv-app/GoogleOneTimeInitializer.apk=com.google.android.onetimeinitializer\npackage:/system/priv-app/GooglePartnerSetup.apk=com.google.android.partnersetup\npackage:/system/priv-app/ProxyHandler.apk=com.android.proxyhandler\npackage:/mnt/asec/com.macmillan.ielts.skillsfree-1/pkg.apk=com.macmillan.ielts.skillsfree\npackage:/system/priv-app/ThemesProvider.apk=org.cyanogenmod.themes.provider\npackage:/system/priv-app/InputDevices.apk=com.android.inputdevices\npackage:/data/app/com.devhd.feedly-2.apk=com.devhd.feedly\npackage:/system/app/HoloSpiralWallpaper.apk=com.android.wallpaper.holospiral\npackage:/system/priv-app/GoogleFeedback.apk=com.google.android.feedback\npackage:/data/app/com.google.android.talk-2.apk=com.google.android.talk\npackage:/data/app/com.whatsapp-1.apk=com.whatsapp\npackage:/system/app/Stk.apk=com.android.stk\npackage:/system/priv-app/CMUpdater.apk=com.cyanogenmod.updater\npackage:/system/app/UserDictionaryProvider.apk=com.android.providers.userdictionary\npackage:/system/app/CMFileManager.apk=com.cyanogenmod.filemanager\npackage:/data/app/com.twitter.android-1.apk=com.twitter.android\npackage:/system/app/PacProcessor.apk=com.android.pacprocessor\npackage:/system/app/BluetoothExt.apk=org.codeaurora.bluetooth\npackage:/data/app/com.skype.raider-1.apk=com.skype.raider\npackage:/data/app/net.yura.domination-2.apk=net.yura.domination\npackage:/system/app/Galaxy4.apk=com.android.galaxy4\npackage:/mnt/asec/com.wolfram.android.alpha-2/pkg.apk=com.wolfram.android.alpha\npackage:/system/app/PrintSpooler.apk=com.android.printspooler\npackage:/data/app/com.google.android.keep-2.apk=com.google.android.keep\npackage:/system/framework/framework-res.apk=android\npackage:/system/priv-app/ContactsProvider.apk=com.android.providers.contacts\npackage:/data/app/com.bambuna.podcastaddict-2.apk=com.bambuna.podcastaddict\npackage:/system/priv-app/ExternalStorageProvider.apk=com.android.externalstorage\npackage:/system/app/BasicDreams.apk=com.android.dreams.basic\npackage:/system/app/InCallUI.apk=com.android.incallui\npackage:/system/priv-app/Trebuchet.apk=com.cyanogenmod.trebuchet\npackage:/data/app/com.google.android.apps.plus-1.apk=com.google.android.apps.plus\npackage:/data/app/com.android.vending-2.apk=com.android.vending\npackage:/data/app/com.google.android.play.games-1.apk=com.google.android.play.games\npackage:/system/priv-app/SystemUI.apk=com.android.systemui\npackage:/system/app/PhotoPhase.apk=org.cyanogenmod.wallpapers.photophase\npackage:/system/app/KeyChain.apk=com.android.keychain\npackage:/system/app/WAPPushManager.apk=com.android.smspush\npackage:/data/app/com.google.android.gm-2.apk=com.google.android.gm\npackage:/system/priv-app/ThemeChooser.apk=org.cyanogenmod.theme.chooser\npackage:/system/app/LiveWallpapers.apk=com.android.wallpaper\npackage:/data/app/com.google.android.GoogleCamera-2.apk=com.google.android.GoogleCamera\npackage:/system/app/ChromeBookmarksSyncAdapter.apk=com.google.android.syncadapters.bookmarks\npackage:/data/app/com.google.android.youtube-2.apk=com.google.android.youtube\npackage:/system/app/DeskClock.apk=com.android.deskclock\npackage:/system/app/CMWallpapers.apk=com.cyanogenmod.wallpapers\npackage:/system/priv-app/GoogleServicesFramework.apk=com.google.android.gsf\npackage:/system/priv-app/Keyguard.apk=com.android.keyguard\npackage:/system/app/CalendarGoogle.apk=com.google.android.calendar\npackage:/system/app/VoicePlus.apk=org.cyanogenmod.voiceplus\npackage:/system/app/FaceLock.apk=com.android.facelock\npackage:/data/app/com.android.chrome-2.apk=com.android.chrome\npackage:/mnt/asec/com.bambuna.podcastaddictdonate-1/pkg.apk=com.bambuna.podcastaddictdonate\npackage:/system/priv-app/Shell.apk=com.android.shell\npackage:/system/app/GoogleContactsSyncAdapter.apk=com.google.android.syncadapters.contacts\n",
+			"settings":
+			{
+				"buffer_size": 8767,
+				"line_ending": "Unix",
+				"name": "package:/system/app/Apollo.apk=com.andrew.apollo"
 			}
 		}
 	],
@@ -167,6 +176,11 @@
 	},
 	"file_history":
 	[
+		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/css/style.css",
+		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/bootstrap-responsive386.css",
+		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/bootstrap386.css",
+		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/stylesheet.css",
+		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3/default.html",
 		"/home/leonardo/tetsuo2501.github.io/portfolio.html",
 		"/home/leonardo/tetsuo2501.github.io/_posts/2013-04-12-coolbine.md",
 		"/home/leonardo/tetsuo2501.github.io/_posts/2013-06-01-ecogreenshop.md",
@@ -175,17 +189,13 @@
 		"/home/leonardo/tetsuo2501.github.io/_config.yml",
 		"/home/leonardo/tetsuo2501.github.io/CNAME",
 		"/home/leonardo/tetsuo2501.github.io/Gemfile",
-		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3/default.html",
 		"/home/leonardo/tetsuo2501.github.io/404.html",
 		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3/post.html",
 		"/home/leonardo/tetsuo2501.github.io/_plugins/sitemap_generator.rb",
 		"/home/leonardo/tetsuo2501.github.io/_drafts/2014-08-13-qua-siamo.md",
-		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/stylesheet.css",
 		"/home/leonardo/tetsuo2501.github.io/_drafts/prova.md",
 		"/home/leonardo/tetsuo2501.github.io/contattami.html",
 		"/home/leonardo/tetsuo2501.github.io/_posts/2014-08-12-abitiperlavoro.md",
-		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/bootstrap386.css",
-		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/css/style.css",
 		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/386.min.css",
 		"/home/leonardo/tetsuo2501.github.io/imagescript.sh",
 		"/home/leonardo/tetsuo2501.github.io/blog.html",
@@ -293,8 +303,7 @@
 		"/home/leonardo/cam4/dist/scripts/eab06230.main.js",
 		"/home/leonardo/cam4Notifier/app/manifest.json",
 		"/home/leonardo/dart/cam4Notifier/app/cam4notifier.dart",
-		"/home/leonardo/cam4Notifier/app/scripts/background.js",
-		"/home/leonardo/cam4Notifier/app/scripts/hello.coffee"
+		"/home/leonardo/cam4Notifier/app/scripts/background.js"
 	],
 	"find":
 	{
@@ -475,41 +484,11 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_includes/themes/bootstrap-3/default.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3993,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2243,
-								2243
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 204.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "_posts/2014-08-13-qua-siamo.md",
 					"semi_transient": false,
 					"settings":
@@ -528,6 +507,62 @@
 						"settings":
 						{
 							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "CNAME",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7098,
+								7098
+							]
+						],
+						"settings":
+						{
+							"auto_name": "package:/system/app/Apollo.apk=com.andrew.apollo",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
