@@ -11,7 +11,8 @@ CONFIG = {
   'posts' => File.join(SOURCE, "_posts"),
   'drafts' => File.join(SOURCE, "_drafts"),
   'post_ext' => "md",
-  'theme_package_version' => "0.1.0"
+  'theme_package_version' => "0.1.0",
+  'siteurl' => "www.github.com/tetsuo2501"
 }
 
 # Path configuration helper
@@ -40,6 +41,23 @@ module JB
   
   end #Path
 end #JB
+
+#Commit and publish jekyll on github
+desc "Commit and upload to github in #{CONFIG['siteurl']}"
+task :upload do
+  puts "\n## Staging modified files"
+  status = system("git add -A")
+  puts status ? "Success" : "Failed"
+  puts "\n## Committing a site build at #{Time.now.utc}"
+  message = "Build site at #{Time.now.utc}"
+  status = system("git commit -m \"#{message}\"")
+  puts status ? "Success" : "Failed"
+  puts "\n## Pushing commits to remote"
+  status = system("git push")
+  puts status ? "Success" : "Failed"
+end
+
+
 
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1,tag2]] [category="category"]
 desc "Begin a new post in #{CONFIG['posts']}"
