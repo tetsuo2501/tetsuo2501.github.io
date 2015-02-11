@@ -34,6 +34,7 @@ Attraverso i miei studi e le mie esperienze ho acquisito conoscenze di:
 * JavaScript aka ECMA Script
 * Dart
 
-PS: Un +1 è sempre gradito! <g:plusone size="tall" annotation="none"></g:plusone>
+PS: Un +1 è sempre gradito! :) <g:plusone size="tall" annotation="none"></g:plusone>
 
 
+<meta name="p:domain_verify" content="979e45549d181ea51209b8fb82950256"/>
