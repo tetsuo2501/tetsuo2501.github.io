@@ -3,23 +3,27 @@
 	{
 		"selected_items":
 		[
+			[
+				"print",
+				"printValues"
+			],
+			[
+				"lu",
+				"lunghezzaStringa2"
+			],
+			[
+				"lunghezza",
+				"lunghezzaStringa2"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 48,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/home/leonardo/.bashrc",
 			"settings":
 			{
-				"buffer_size": 3906,
+				"buffer_size": 4011,
 				"line_ending": "Unix"
 			}
 		},
@@ -27,47 +31,31 @@
 			"file": "index.md",
 			"settings":
 			{
-				"buffer_size": 1876,
+				"buffer_size": 1875,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_layouts/page.html",
+			"contents": "---\nlayout: post\ntitle: \"Finalmente laureato\"\ncategory: blog\ntags: []\ndescription: \"\"\nkeywords: \"\"\n---\n{% include JB/setup %}\nDopo aver pensato seriamente a mollare, mi sono deciso a finire gli studi. ",
+			"file": "_drafts/2015-03-27-finalmente-laureato.md",
+			"file_size": 126,
+			"file_write_time": 130719485023265723,
 			"settings":
 			{
-				"buffer_size": 90,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "CNAME",
-			"settings":
-			{
-				"buffer_size": 20,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/leonardo/.bash_profile",
-			"settings":
-			{
-				"buffer_size": 200,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/leonardo/.profile",
-			"settings":
-			{
-				"buffer_size": 862,
+				"buffer_size": 201,
 				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -75,9 +63,10 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 139.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -92,6 +81,7 @@
 	"expanded_folders":
 	[
 		"/home/leonardo/tetsuo2501.github.io",
+		"/home/leonardo/tetsuo2501.github.io/_drafts",
 		"/home/leonardo/tetsuo2501.github.io/_includes",
 		"/home/leonardo/tetsuo2501.github.io/_includes/themes",
 		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3",
@@ -99,12 +89,39 @@
 	],
 	"file_history":
 	[
+		"/home/leonardo/.bashrc",
+		"/home/leonardo/.bash_profile",
+		"/home/leonardo/.profile",
+		"/home/leonardo/Scaricati/AGConfig011010.xml",
+		"/home/leonardo/Scaricati/AGConfig011010(1).kry",
+		"/home/leonardo/.gnupg/gpg.conf",
+		"/home/leonardo/Scaricati/AGConfig011010.kry",
+		"/home/leonardo/AGConfig011010.bin",
+		"/home/leonardo/esercitazioni c++/nodo.h",
+		"/home/leonardo/esercitazioni c++/grafo.cpp",
+		"/home/leonardo/esercitazioni c++/grafo.h",
+		"/home/leonardo/esercitazioni c++/vicino.h",
+		"/home/leonardo/esercitazioni c++/nodo.cpp",
+		"/home/leonardo/esercitazioni c++/main.cpp",
+		"/home/leonardo/esercitazioni Java/dijstra/Nodo.java",
+		"/home/leonardo/esercitazioni Java/dijstra/Dijstra.java",
+		"/home/leonardo/esercitazioni C/albero.c",
+		"/usr/include/stdlib.h",
+		"/usr/include/stdio.h",
+		"/home/leonardo/esercitazioni Java/djstra/Nodo.java",
+		"/home/leonardo/esercitazioni Java/djstra/Nodo.",
+		"/home/leonardo/esercitazioni Java/djstra/Oggetto.java",
+		"/home/leonardo/esercitazioni Java/djstra/djistra.java",
+		"/home/leonardo/esercitazioni C/lenvenhstein.c",
+		"/home/leonardo/tetsuo2501.github.io/_config.yml",
+		"/home/leonardo/tetsuo2501.github.io/CNAME",
+		"/home/leonardo/tetsuo2501.github.io/_layouts/page.html",
+		"/home/leonardo/tetsuo2501.github.io/index.md",
+		"/home/leonardo/tetsuo2501.github.io/Gemfile",
 		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3/page.html",
 		"/home/leonardo/tetsuo2501.github.io/_includes/themes/bootstrap-3/default.html",
 		"/home/leonardo/b.js",
 		"/home/leonardo/a.js",
-		"/home/leonardo/tetsuo2501.github.io/index.md",
-		"/home/leonardo/tetsuo2501.github.io/_config.yml",
 		"/home/leonardo/tetsuo2501.github.io/assets/themes/bootstrap-3/bootstrap/css/stylesheet.css",
 		"/home/leonardo/tetsuo2501.github.io/blog.html",
 		"/home/leonardo/p/Gemfile",
@@ -118,7 +135,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -132,6 +149,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"draft",
+			"theme",
+			"telnet",
+			"strlen",
 			"noPrivateShow",
 			"jekyll",
 			"~"
@@ -153,52 +174,24 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Gemfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 48,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								48,
-								48
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "/home/leonardo/.bashrc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3906,
+						"buffer_size": 4011,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3872,
-								3872
+								4011,
+								4011
 							]
 						],
 						"settings":
@@ -206,27 +199,27 @@
 							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1938.0,
+						"translation.y": 1785.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "index.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1876,
+						"buffer_size": 1875,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1535,
-								1535
+								527,
+								527
 							]
 						],
 						"settings":
@@ -237,119 +230,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "_layouts/page.html",
+					"buffer": 2,
+					"file": "_drafts/2015-03-27-finalmente-laureato.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 90,
+						"buffer_size": 201,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								201,
+								201
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "CNAME",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/leonardo/.bash_profile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 200,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/home/leonardo/.profile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 862,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								705,
-								705
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -390,6 +299,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "sublime.sublime-project",
 	"replace":
 	{
@@ -399,6 +309,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -407,6 +318,7 @@
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -415,6 +327,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
