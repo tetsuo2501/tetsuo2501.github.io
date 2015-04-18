@@ -1,0 +1,59 @@
+# Run during the 'gulp build' command
+# Overrides these options in _config.yml
+
+# Overrides the default URL, needed for your atom feed and sitemap
+url: 
+
+# Hides your drafts and future posts
+future: false
+show_drafts: false
+# Gives you more accurate related posts
+lsi: true
+# Removes the upper limit for posts generated
+limit_posts: 0
+
+
+googleAnalytics: UA-45821535-3
+safe: true
+
+gems:
+  - jemoji
+  - jekyll-sitemap
+
+
+# Title, decription, tagline and URL for your site
+# Can be used in your theme by calling 'site.title' and so on
+title: Leonardo Fontana Portfolio
+description: Pagina personale e portfolio di Leonardo Fontana
+tagline: 
+
+
+# Used so Jekyll outputs the site correctly so Gulp can do what it wants
+
+
+# Same as the title etc for your site but can instead be
+# called by using 'site.author.name' and so on
+author:
+  name: Leonardo Fontana
+  email: tetsuo2501@gmail.com
+  bio: 
+  twitter: tetsuo2501
+  instagram: leonardofontana
+  linkedin: https://it.linkedin.com/in/leonardofontana
+
+
+
+# Permalink structure and pagination options
+relative_permalinks: true
+permalink: pretty
+paginate: 10
+paginate_path: 'page:num'
+excerpt_separator: '<!--more-->'
+
+# Markdown library
+markdown: kramdown
+# Markdown library options
+kramdown:
+  input: GFM
+
+highlighter: true

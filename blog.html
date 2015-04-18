@@ -4,20 +4,20 @@ title : Blog
 header : Blog
 group: navigation
 ---
-{% include JB/setup %}
-
 {% for post in site.categories.blog  %}
-<div class="row-fluid" style="margin-bottom: 50px">
-<div class="row-fluid">
-	<div style="float:left">
+<div class="z-depth-1 container" style="margin-bottom: 10px; padding-bottom:10px">
+<div class="row ">
+	<div style="col m6 l6 s12">
 		<a href="{{post.url}}">
-			<h1>{{ post.title }}</h1>
+			<h3>{{ post.title }}</h3>
 		</a>
 	</div>
-	<div style="float:right">
+	<div style="col s12 m6 l6">
 		<i>{{ post.date | date_to_string }}</i>
 	</div>
 </div>
-<hr class="blog">{{ post.excerpt }}
-	<a class="btn" href="{{post.url}}">Continua...</a>
-</div>{% endfor %}
+{{ post.excerpt }}
+<a class="waves-effect waves-light btn" href="{{post.url}}">Continua...</a>
+</div>
+</div>
+{% endfor %}

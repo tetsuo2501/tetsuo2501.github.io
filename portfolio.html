@@ -4,18 +4,22 @@ title : Portfolio
 header : Lavori Svolti
 group: navigation
 ---
-{% include JB/setup %}
+
 {% for post in site.categories.portfolio  %}
-<div class="row-fluid" style="margin-bottom: 50px">
-<h1 style="text-align:left">{{ post.title }}</h1>
-<hr>
-{% if post.image %}
-<a href="#modal{{ post.image | remove: "." }}" role="button" class="thumbnail" data-toggle="modal" style="float:left; margin-right:20px"><img src="/thumbs/{{ post.image }}" class="thumbImage" ></a>
-		<div id="modal{{ post.image | remove: "." }}" class="modal hide" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	  		<div class="thumbnail ">
-    			<img src="/images/{{ post.image }}" class="modalImage" >
-  			</div>
-  			<div class="nav list modal-footer"><button class="btn" data-dismiss="modal" aria-hidden="true">Chiudi</button>
-			</div>
-		</div>
-{% else %}{% endif %}{{ post.content }}</div>{% endfor %}
+<div class="row z-depth-1" style="margin-bottom: 50px;padding-left:10px">
+	<h3>{{ post.title }}</h3>
+
+	{% if post.image %}
+	<div class="col z-depth-2 col card-image medium s12 m6 l5" style="margin-bottom:20px;">
+		
+			<img class="materialboxed" src="/assets/images/portfolio/thumb/{{ post.image }}" srcset="/assets/images/portfolio/thumb/{{ post.image }} 400w, /assets/images/portfolio/{{ post.image }} 800w" width="100%" >
+		
+	</div>
+
+		<!--srcset="/assets/images/portfolio/thumb/{{ post.image }} 1x, /assets/images/portfolio/{{ post.image }} 2x" -->
+	{% endif %}
+	<div class="col m5 l6 s12 offset-m1 offset-l1" style="margin-bottom:20px">
+	{{ post.content }}
+	</div>
+</div>
+{% endfor %}

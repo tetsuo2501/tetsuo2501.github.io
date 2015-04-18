@@ -1,0 +1,16 @@
+menu:
+    - 
+        name: 'Home' 
+        link: ''
+    -
+        name: 'Blog'
+        link: 'blog'
+    -
+        name: 'Contattami'
+        link: 'contattami'
+    -
+        name: 'Portfolio'
+        link: 'portfolio'
+
+disqus:
+    short_name: leonardofontana

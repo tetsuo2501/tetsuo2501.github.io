@@ -4,39 +4,43 @@ title : Contattami
 header : Contattami
 group: navigation
 ---
-{% include JB/setup %}
-<form class="form-horizontal" action="http://getsimpleform.com/messages?form_api_token=a4f18b43f94e5256ae9e7dc92aa19883" method="post">
 
-	<div class="control-group span12">
-  		<label class="control-label" for="Nome">Nome</label>
-  		<div class="controls">
-    		<input name="Nome" min="4" placeholder=".span6" class="span6" type="text" id="Nome" placeholder="Nome">
-  		</div>
+<form class=" z-depth-1" style="padding: 20px" action="{%if safe%}http://getsimpleform.com/messages?form_api_token=a4f18b43f94e5256ae9e7dc92aa19883{% endif %}" method="post">
+
+	<div class="row">
+    <div class="col m6 l6 s12 input-field">
+      <i class="mdi-action-account-circle prefix"></i>
+      <input id="icon_prefix1" name="Nome" min="4" type="text"  class="validate">
+      <label for="icon_prefix1">Nome</label>
+    </div>
+
+    <div class="col m6 l6 s12 input-field">
+    <i class="mdi-communication-email prefix"></i>
+      <input id="icon_prefix2" name="email" min="6" type="email" class="validate">
+      <label for="icon_prefix2">E-mail</label>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col m12 l12 s12 input-field">
+      <i class="mdi-action-description prefix"></i>
+  	  <input id="icon_prefix3" name="Oggetto"  type="text" class="validate">
+      <label for="icon_prefix3">Oggetto</label>
+    </div>
+  </div>
+
+  <div class="row">
+  	<div class="col m12 l12 s12 input-field">
+      <i class="mdi-editor-mode-edit prefix"></i>
+      		<textarea id="icon_prefix4" name="messaggio" min="4"  rows="5"  class="validate materialize-textarea"></textarea>
+          <label for="icon_prefix4">Messaggio</label>
+    </div>
 	</div>
 
-	<div class="control-group">
-  		<label class="control-label" for="inputEmail">Email</label>
-  		<div class="controls">
-    		<input name="email" placeholder=".span6" min="6" class="span6" type="email" id="inputEmail" placeholder="Email">
-  		</div>
+  <div class="row">
+    <button class="btn waves-effect waves-light" type="submit" name="action">Invia
+     <i class="mdi-content-send right"></i>
+   </button>
 	</div>
-
-	<div class="control-group">
-  		<label class="control-label" for="oggetto">Oggetto</label>
-  		<div class="controls">
-    		<input name="Oggetto" placeholder=".span6" class="span6" type="email" id="oggetto" placeholder="Oggetto">
-  		</div>
-	</div>
-
-	<div class="control-group">
-  		<label class="control-label" for="inputEmail">Messaggio</label>
-  		<div class="controls">
-    		<textarea name="messaggio" min="4" placeholder=".span6" class="span6" id="messaggio" rows="5"></textarea>
-  		</div>
-	</div>
-	<div class="control-group">
 	
-		<input type='submit' style="margin-left:80px" class="btn" value='Invia' />
-		
-	</div>
 </form>
