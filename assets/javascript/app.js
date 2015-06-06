@@ -24,9 +24,11 @@ function verificaCookieEU(){
 			//Elimina Handler
 			$( document ).unbind("scroll");
 			avviaAnalytics();
+			caricaRisorse();
 		});
 	} else {
 		avviaAnalytics();
+		caricaRisorse();
 	}
 }
 
