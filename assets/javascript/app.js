@@ -11,5 +11,26 @@ $( document ).ready(function(){
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+function verificaCookieEU(){
+	if( $.cookie('cookieEUPolicy') == undefined ){
+		//Show Modal
+		$('#modalEU').openModal();
+		// Inserisci handler per lo scroll
+		$( document ).scroll( function(){
+			//Imposta cookie
+			$.cookie('cookieEUPolicy', 'ok', { expires: 30 });
+			//Chiudi Modal
+			$('#modalEU').closeModal();
+			//Elimina Handler
+			$( document ).unbind("scroll");
+			avviaAnalytics();
+		});
+	} else {
+		avviaAnalytics();
+	}
+}
 
+function caricaRisorse(){
+	$.getScript("https://apis.google.com/js/plusone.js");
+}
 /********* Gestione Notifica dei Cookie **************/

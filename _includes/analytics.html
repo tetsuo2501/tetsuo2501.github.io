@@ -1,11 +1,6 @@
 <script>
-function verificaCookieEU(){
-	if( $.cookie('cookieEUPolicy') == undefined ){
-		//Show Modal
-		$('#modalEU').openModal();
-	} else {
-		ga('create', '{{site.googleAnalytics}}', 'auto');
-		ga('send', 'pageview');
-	}
+function avviaAnalytics(){
+	ga('create', '{{site.googleAnalytics}}', 'auto');
+	ga('send', 'pageview');
 }
 </script>
